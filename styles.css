@@ -33,6 +33,11 @@ body
   backface-visibility: hidden;
 }
 
+.picture {
+  left:25%;
+  top: 10%;
+  width: 45%;
+}
 
 .middle {
   left:100px;
@@ -113,11 +118,11 @@ body
 
 .topcenter
 {
-  position:absolute;
   top:10%;
   left:25%;
   padding: 1%;
   width: 40%;
+  height:50%;
 }
 
 body
