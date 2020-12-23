@@ -83,7 +83,6 @@ body
 .mail
 {
   border-style: double;
-  position: absolute;
   left: 600px;
   width: 300px;
   padding: 10px;
@@ -93,7 +92,6 @@ body
 .phone
 {
   border-style: double;
-  position: absolute;
   left: 600px;
   width: 300px;
   padding: 10px;
