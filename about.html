@@ -2,28 +2,33 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>About</title>
     <link href="styles.css" rel="stylesheet">
   </head>
   <body>
-    <div class="topnav">
-    <a href="index.html">Home</a>
-    <a  href="contact.html">Contact</a>
-    <a class="active" href="about.html">About</a>
-    </div>
+    <nav role="navigation">
+      <div id="menuToggle">
+
+        <input type="checkbox" />
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <a href="index.html"><li>Home</li></a>
+          <a href="about.html"><li>About</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+        </ul>
+      </div>
+    </nav>
 
     <div>
-    <h1> About me! </h1>
-
+    <h1 class="middle"> About me! </h1>
     </div>
 
     <div class="container">
       <img src="intro_image.jpg" alt="Avatar" class="image" style="width:100%">
-      <div class="middle">
-        <div class="text">Zach Jones</div>
-      </div>
     </div>
 
     <div class="center">
@@ -39,3 +44,4 @@
     </div>
   </body>
 </html>
+
